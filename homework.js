@@ -3,7 +3,7 @@ let start = 0;
 let end = 20;
 
 
-for (i=start; i<= end; i++) {
+for (let i=start; i<= end; i++) {
   if (i % 2 == 0){
     console.log (i);
   }
@@ -16,7 +16,7 @@ function sumArray (arr) {
   
   //const arr = numbersToSum;
   let sum = 0;
-  for (i=0 ; i < numbersToSum.length; i += 1){
+  for (let i=0 ; i < numbersToSum.length; i += 1){
     sum += numbersToSum [i];
   }
   return sum;
